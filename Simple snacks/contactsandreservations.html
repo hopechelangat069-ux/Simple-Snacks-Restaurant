@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Snacks | Contact & Reservations</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 14px;
+            background: #8b4513;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #6d350f;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Simple Snacks Uganda</h1>
+    <p>Contact & Reservations</p>
+</header>
+
+<nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Our Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="customers.html">Our Customers</a>
+    <a href="contact.html">Contact & Reservations</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Make a Reservation</h2>
+
+    <p>
+        Complete the form below to send a reservation or inquiry to
+        Simple Snacks.
+    </p>
+
+    <form action="#" method="post">
+
+        <label for="fullname">Full Name</label>
+        <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+        >
+
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+        >
+
+        <label for="phone">Telephone Number</label>
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+256 700 000000"
+            required
+        >
+
+        <label for="date">Reservation Date</label>
+        <input
+            type="date"
+            id="date"
+            name="date"
+            required
+        >
+
+        <label for="time">Preferred Time</label>
+        <input
+            type="time"
+            id="time"
+            name="time"
+            required
+        >
+
+        <label for="people">Number of People</label>
+        <select id="people" name="people">
+            <option value="1">1 Person</option>
+            <option value="2">2 People</option>
+            <option value="3">3 People</option>
+            <option value="4">4 People</option>
+            <option value="5">5 People</option>
+            <option value="6">6 People</option>
+            <option value="7">7+ People</option>
+        </select>
+
+        <label for="message">Special Request or Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Enter your request or message">
+        </textarea>
+
+        <button type="submit">Submit Reservation</button>
+
+    </form>
+</section>
+
+<section>
+    <h2>Contact Information</h2>
+
+    <address>
+        <p><strong>Restaurant:</strong> Simple Snacks Uganda</p>
+        <p><strong>Location:</strong> Mukono, Uganda</p>
+        <p><strong>Telephone:</strong> +256 700 000000</p>
+        <p><strong>Email:</strong> info@simplesnacks.ug</p>
+    </address>
+</section>
+
+<section>
+    <h2>Our Commitment</h2>
+
+    <p>
+        At Simple Snacks, we are committed to providing quality food,
+        maintaining good hygiene, treating customers with respect,
+        providing affordable prices and creating a comfortable dining
+        environment.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Simple Snacks Uganda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
